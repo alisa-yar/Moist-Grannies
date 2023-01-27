@@ -10,10 +10,6 @@
     --describeFont: 'Roboto', sans-serif, 'arial';
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 html {
     margin: 0;
     height: 100%;
@@ -34,7 +30,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 10px auto;
     padding: 0;
     height: fit-content;
     min-height: 100%;
@@ -57,7 +53,6 @@ body {
   padding: 10px; 
   position: center;
 
-    
   border: 1px solid rgba(0, 0, 0, .25);
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.45);
