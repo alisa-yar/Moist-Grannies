@@ -10,6 +10,9 @@
     --describeFont: 'Roboto', sans-serif, 'arial';
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 html {
     margin: 0;
